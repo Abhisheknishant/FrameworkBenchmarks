@@ -4,6 +4,9 @@
 
 sudo: required
 dist: xenial
+arch:
+    - amd64
+    - arm64
 language: generic
 python:
   - "2.7"
